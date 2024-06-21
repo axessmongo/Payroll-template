@@ -90,19 +90,21 @@ function Home() {
                                     <a class="nav-link active px-3" aria-current="page" id='name-nav' onClick={() => gotoTop('global')}>Global Payroll</a>
                                 </li>
 
-                                <li class="nav-item">
+                                {/* <a class="nav-link active px-3"> <button className='nav-sign-bt'>Buy Now</button></a> */}
+
+                                {/* <li class="nav-item">
                                     <a class="nav-link active px-3"> <button className='nav-sign-bt'>Sign Up</button></a>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
                 </nav>
             </section>
 
-            <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
+            {/* <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
                 <a href="https://axesstechnology.in/contact" target='_blank'>
                     <button className='buy-now-bt'>BuyNow</button></a>
-            </div>
+            </div> */}
 
             {/* carousel sec */}
             <section id='home'>
@@ -146,7 +148,6 @@ function Home() {
             </div>
             </section>
            
-
             {/* consolidate hr */}
             <section id='about'>
                 <div className='container py-5'>
@@ -675,6 +676,7 @@ function Home() {
                     </div>
                 </div>
             </footer>
+
         </div>
     )
 }
